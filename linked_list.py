@@ -21,8 +21,7 @@ class LinkedList():
             return "[" + str(self.head) + ", "+str(self.tail) +"]"
 
 a =  LinkedList()
-a.append(5)
-a.append(6)
-a.append(12)
-a.append(7)
+l=list(map(int,input().split()))
+for i in l:
+    a.append(i)
 print(a)
